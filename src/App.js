@@ -11,7 +11,7 @@ const App=()=>{
         projectID="5b7966ca-ef56-45d7-9fd4-afacd269ab66"
         userName="Ani"
         userSecret="12345"
-        renderChatFeed={(chatAppProps)=><ChatFeed {...chatAppProps}/>}
+          renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />} 
         
         />
     )
@@ -19,4 +19,3 @@ const App=()=>{
 
 export default App;
 
-// https://chatengine.io/projects/5b7966ca-ef56-45d7-9fd4-afacd269ab66
